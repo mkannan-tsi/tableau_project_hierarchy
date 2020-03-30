@@ -4,7 +4,6 @@ from ProjectMethods import *
 
 ###Important details to fill in###
 server_name = ""   
-version = ""     
 site_url_id = ""
 personal_access_or_username = 1 #set to 1 if personal access tokens are to be used
 personal_access_token_name = ""         
@@ -32,6 +31,7 @@ payload_username_password = 	{
 				}
 			}
 
+version = "" 
 if personal_access_or_username == 1:
 	payload = payload_personal_access
 	version = "3.6"
